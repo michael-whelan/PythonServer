@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+You are logged in as a "Pilot"
+
+{%for object  in list%}
+<li>{{object[0]}} - {{object[1]}}</a></li>
+{%endfor%}
+
+{% endblock %}

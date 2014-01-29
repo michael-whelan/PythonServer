@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+	<form action= "/tell" method ="POST">
+			Tell your name: <input type="TEXT" name ="tellname"/>
+			<br />
+			Tell your age: <input type="TEXT" name ="tellage"/>
+			<br />
+			Tell your location: <input type="TEXT" name ="telllocation"/>
+			<br />
+				<input type = "SUBMIT" value="Tell me!" />
+			</form> 
+
+{% endblock %}
